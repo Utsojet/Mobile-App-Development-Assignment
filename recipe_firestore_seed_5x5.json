@@ -1,0 +1,887 @@
+{
+  "categories": {
+    "breakfast": {
+      "name": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80"
+    },
+    "dessert": {
+      "name": "Dessert",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80"
+    },
+    "dinner": {
+      "name": "Dinner",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    },
+    "lunch": {
+      "name": "Lunch",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=800&q=80"
+    },
+    "vegetables": {
+      "name": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  "recipes": {
+    "butter_paneer": {
+      "name": "Butter Paneer",
+      "calorie": "300",
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "1 piece",
+        "200 gm",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Onion",
+        "Tomato",
+        "Butter"
+      ],
+      "isFavorite": false,
+      "rating": 4.5,
+      "review": 10,
+      "time": 25,
+      "instructions": [
+        "Cut paneer into bite-size cubes. Finely chop the onion and tomato.",
+        "Heat butter in a pan over medium heat. Sauté onion until soft, then add tomato and cook until pulpy.",
+        "Add ginger-garlic paste and garam masala. Cook for 1 minute, then blend or mash the mixture until smooth.",
+        "Return the sauce to the pan, add a splash of water and simmer for 5 minutes.",
+        "Add paneer and a little cream if desired. Simmer gently for 4–5 minutes without overcooking the paneer.",
+        "Season with salt and serve hot with naan or rice."
+      ]
+    },
+    "french_toast": {
+      "name": "French Toast",
+      "calorie": "280",
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "4 slices",
+        "2 pieces",
+        "2 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Bread",
+        "Egg",
+        "Butter"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 14,
+      "time": 15,
+      "instructions": [
+        "Whisk eggs, milk, sugar and a pinch of cinnamon in a shallow bowl.",
+        "Dip each bread slice into the mixture for a few seconds on each side; do not soak until soggy.",
+        "Heat butter in a non-stick pan over medium heat.",
+        "Cook the bread for 2–3 minutes per side until golden brown and cooked through.",
+        "Serve warm with fruit, honey or maple syrup."
+      ]
+    },
+    "chocolate_cake": {
+      "name": "Chocolate Cake",
+      "calorie": "420",
+      "category": "Dessert",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "200 gm",
+        "2 pieces",
+        "100 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Flour",
+        "Egg",
+        "Chocolate"
+      ],
+      "isFavorite": false,
+      "rating": 4.8,
+      "review": 22,
+      "time": 50,
+      "instructions": [
+        "Preheat the oven to 180°C (350°F). Grease and line a round cake tin.",
+        "Whisk flour, cocoa powder, sugar, baking powder and a pinch of salt in a bowl.",
+        "Add eggs, milk, melted butter and vanilla. Mix just until the batter is smooth.",
+        "Pour into the prepared tin and bake for about 30–35 minutes, or until a skewer comes out clean.",
+        "Cool in the tin for 10 minutes, then transfer to a rack and cool completely before slicing."
+      ]
+    },
+    "strawberry_pancake": {
+      "name": "Strawberry Pancake",
+      "calorie": "310",
+      "category": "Dessert",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "150 gm",
+        "100 gm",
+        "6 pieces"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Flour",
+        "Milk",
+        "Strawberry"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 18,
+      "time": 25,
+      "instructions": [
+        "Whisk flour, milk and egg into a smooth, pourable batter. Rest for 5 minutes.",
+        "Heat a lightly buttered pan over medium heat. Pour a small ladle of batter and spread gently.",
+        "Cook until bubbles form and the edges look set, then flip and cook the other side until golden.",
+        "Repeat with the remaining batter.",
+        "Top with sliced strawberries and serve warm with yogurt, honey or syrup."
+      ]
+    },
+    "chicken_curry": {
+      "name": "Chicken Curry",
+      "calorie": "390",
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "500 gm",
+        "1 piece",
+        "100 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Chicken",
+        "Onion",
+        "Tomato"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 20,
+      "time": 45,
+      "instructions": [
+        "Cut chicken into medium pieces and season lightly with salt.",
+        "Heat oil in a deep pan. Sauté chopped onion until golden, then add ginger-garlic paste.",
+        "Add chopped tomato and cook until soft. Stir in turmeric, cumin, coriander and chili powder.",
+        "Add chicken and cook over medium-high heat for 5–7 minutes, stirring to coat well.",
+        "Add water, cover and simmer for 20–25 minutes until the chicken is tender and the sauce thickens.",
+        "Adjust salt and garnish with fresh coriander before serving."
+      ]
+    },
+    "beef_steak": {
+      "name": "Beef Steak",
+      "calorie": "520",
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "250 gm",
+        "1 tbsp",
+        "2 cloves"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1615477550927-6ec8445e39b3?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Beef",
+        "Olive Oil",
+        "Garlic"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 17,
+      "time": 30,
+      "instructions": [
+        "Pat the steak dry and season both sides generously with salt and black pepper. Rest for 15–20 minutes.",
+        "Heat a heavy skillet until very hot. Add olive oil and place the steak in the pan.",
+        "Sear for 2–4 minutes per side depending on thickness and desired doneness.",
+        "Add crushed garlic and a little butter during the final minute, spooning the butter over the steak.",
+        "Transfer to a plate and rest for 5–10 minutes before slicing against the grain."
+      ]
+    },
+    "chicken_biryani": {
+      "name": "Chicken Biryani",
+      "calorie": "480",
+      "category": "Lunch",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "250 gm",
+        "300 gm",
+        "1 piece"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Chicken",
+        "Rice",
+        "Onion"
+      ],
+      "isFavorite": false,
+      "rating": 4.9,
+      "review": 31,
+      "time": 60,
+      "instructions": [
+        "Rinse basmati rice until the water runs mostly clear, then soak for 20 minutes.",
+        "Marinate chicken with yogurt, ginger-garlic paste, salt and biryani spices for at least 20 minutes.",
+        "Parboil rice in salted water until about 70% cooked; drain immediately.",
+        "Fry sliced onions until golden. Add marinated chicken and cook until the outside changes color and the masala becomes fragrant.",
+        "Layer the chicken with the parboiled rice. Add fried onions, coriander and a little saffron water if available.",
+        "Cover tightly and cook on low heat for 20–25 minutes. Rest 10 minutes, then gently fluff and serve."
+      ]
+    },
+    "vegetable_fried_rice": {
+      "name": "Vegetable Fried Rice",
+      "calorie": "340",
+      "category": "Lunch",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "250 gm",
+        "50 gm",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Rice",
+        "Carrot",
+        "Bell Pepper"
+      ],
+      "isFavorite": false,
+      "rating": 4.5,
+      "review": 13,
+      "time": 25,
+      "instructions": [
+        "Cook rice ahead of time and chill it so the grains stay separate.",
+        "Heat a wok or large pan over high heat and add oil.",
+        "Stir-fry carrot and bell pepper for 2–3 minutes until crisp-tender.",
+        "Add cold rice and toss continuously. Season with soy sauce, pepper and a little salt if needed.",
+        "Cook for 3–4 minutes until the rice is hot and lightly toasted. Serve immediately."
+      ]
+    },
+    "grilled_vegetable_salad": {
+      "name": "Grilled Vegetable Salad",
+      "calorie": "220",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "100 gm",
+        "1 piece",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Tomato",
+        "Bell Pepper",
+        "Lettuce"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 16,
+      "time": 20,
+      "instructions": [
+        "Slice the vegetables into even pieces and pat them dry.",
+        "Toss vegetables with a little olive oil, salt and black pepper.",
+        "Grill on a hot pan or grill until lightly charred and tender but still crisp.",
+        "Cool for a few minutes, then arrange over lettuce.",
+        "Dress with lemon juice, olive oil and a pinch of salt just before serving."
+      ]
+    },
+    "vegetable_stir_fry": {
+      "name": "Vegetable Stir Fry",
+      "calorie": "240",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "100 gm",
+        "80 gm",
+        "1 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Broccoli",
+        "Bell Pepper",
+        "Olive Oil"
+      ],
+      "isFavorite": false,
+      "rating": 4.4,
+      "review": 11,
+      "time": 18,
+      "instructions": [
+        "Cut broccoli and bell pepper into similar-sized pieces so they cook evenly.",
+        "Heat oil in a wok or large skillet over high heat.",
+        "Add broccoli first and stir-fry for 2 minutes, then add bell pepper.",
+        "Cook for another 3–4 minutes until bright and crisp-tender.",
+        "Season with soy sauce, garlic and black pepper. Toss for 30 seconds and serve hot."
+      ]
+    },
+    "banana_oatmeal": {
+      "name": "Banana Oatmeal",
+      "calorie": "290",
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "1 cup",
+        "1 piece",
+        "1/2 cup",
+        "1 tsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Rolled Oats",
+        "Banana",
+        "Milk",
+        "Honey"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 12,
+      "time": 10,
+      "instructions": [
+        "Add oats and milk to a saucepan and bring to a gentle simmer.",
+        "Cook for 4–5 minutes, stirring occasionally, until the oats become creamy.",
+        "Mash half of the banana and stir it into the oatmeal.",
+        "Transfer to a bowl and top with the remaining banana slices and honey.",
+        "Serve warm."
+      ]
+    },
+    "avocado_toast": {
+      "name": "Avocado Toast",
+      "calorie": "260",
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "2 slices",
+        "1 piece",
+        "1 tbsp",
+        "1/2 tsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Bread",
+        "Avocado",
+        "Olive Oil",
+        "Chili Flakes"
+      ],
+      "isFavorite": false,
+      "rating": 4.8,
+      "review": 16,
+      "time": 8,
+      "instructions": [
+        "Toast the bread until crisp and golden.",
+        "Cut the avocado, remove the pit and scoop the flesh into a bowl.",
+        "Mash with a fork, adding a pinch of salt and chili flakes.",
+        "Spread the avocado over the toast and drizzle with olive oil.",
+        "Serve immediately with lemon juice if desired."
+      ]
+    },
+    "omelette": {
+      "name": "Vegetable Omelette",
+      "calorie": "230",
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "2 pieces",
+        "30 gm",
+        "30 gm",
+        "20 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Eggs",
+        "Bell Pepper",
+        "Onion",
+        "Tomato"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 15,
+      "time": 12,
+      "instructions": [
+        "Whisk eggs with salt and black pepper until well combined.",
+        "Heat a non-stick pan with a little oil or butter.",
+        "Sauté chopped onion, bell pepper and tomato for 2–3 minutes.",
+        "Pour in the eggs and cook without stirring until the edges set.",
+        "Fold the omelette in half and cook for another minute until fully set.",
+        "Serve hot."
+      ]
+    },
+    "cheesecake": {
+      "name": "Classic Cheesecake",
+      "calorie": "430",
+      "category": "Dessert",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "200 gm",
+        "400 gm",
+        "2 pieces",
+        "100 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Biscuit Crumbs",
+        "Cream Cheese",
+        "Eggs",
+        "Sugar"
+      ],
+      "isFavorite": false,
+      "rating": 4.9,
+      "review": 27,
+      "time": 60,
+      "instructions": [
+        "Preheat oven to 160°C (320°F). Line the base of a springform tin.",
+        "Mix biscuit crumbs with melted butter and press firmly into the base.",
+        "Beat cream cheese and sugar until smooth, then mix in eggs one at a time.",
+        "Pour the filling over the crust and bake for about 40–45 minutes until the center is just set.",
+        "Turn off the oven, leave the cheesecake inside for 15 minutes, then cool completely.",
+        "Chill for at least 4 hours before slicing."
+      ]
+    },
+    "tiramisu": {
+      "name": "Classic Tiramisu",
+      "calorie": "390",
+      "category": "Dessert",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "200 gm",
+        "250 gm",
+        "1 cup",
+        "2 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Mascarpone",
+        "Cream",
+        "Strong Coffee",
+        "Cocoa Powder"
+      ],
+      "isFavorite": false,
+      "rating": 4.8,
+      "review": 24,
+      "time": 30,
+      "instructions": [
+        "Brew strong coffee and let it cool completely.",
+        "Whip cream until soft peaks form, then gently fold in mascarpone and sugar.",
+        "Dip each ladyfinger briefly into the cooled coffee; do not oversoak.",
+        "Arrange a layer of soaked biscuits in a dish and spread over half the mascarpone mixture.",
+        "Repeat the layers and dust the top generously with cocoa powder.",
+        "Cover and refrigerate for at least 4 hours before serving."
+      ]
+    },
+    "chocolate_chip_cookies": {
+      "name": "Chocolate Chip Cookies",
+      "calorie": "360",
+      "category": "Dessert",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "120 gm",
+        "100 gm",
+        "1 piece",
+        "100 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Flour",
+        "Butter",
+        "Egg",
+        "Chocolate Chips"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 19,
+      "time": 25,
+      "instructions": [
+        "Preheat oven to 180°C (350°F) and line a baking tray.",
+        "Cream softened butter and sugar until light and fluffy.",
+        "Beat in the egg and vanilla, then mix in the flour until just combined.",
+        "Fold in chocolate chips without overmixing.",
+        "Scoop dough onto the tray with space between each cookie.",
+        "Bake for 10–12 minutes until the edges are golden. Cool for 5 minutes before transferring."
+      ]
+    },
+    "grilled_salmon": {
+      "name": "Grilled Salmon",
+      "calorie": "410",
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "2 fillets",
+        "1 tbsp",
+        "2 cloves",
+        "1 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1615477550927-6ec8445e39b3?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Salmon",
+        "Olive Oil",
+        "Garlic",
+        "Lemon Juice"
+      ],
+      "isFavorite": false,
+      "rating": 4.8,
+      "review": 21,
+      "time": 20,
+      "instructions": [
+        "Pat the salmon fillets dry and season with salt and black pepper.",
+        "Mix olive oil, minced garlic and lemon juice, then brush over the salmon.",
+        "Preheat a grill or grill pan to medium-high heat.",
+        "Grill skin-side down for 4–5 minutes, then carefully turn and cook another 3–4 minutes.",
+        "Cook until the center flakes easily and reaches a safe internal temperature.",
+        "Rest for 2 minutes and serve with lemon wedges."
+      ]
+    },
+    "creamy_garlic_pasta": {
+      "name": "Creamy Garlic Pasta",
+      "calorie": "450",
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "200 gm",
+        "4 cloves",
+        "100 ml",
+        "40 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1615477550927-6ec8445e39b3?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Pasta",
+        "Garlic",
+        "Cream",
+        "Parmesan"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 18,
+      "time": 25,
+      "instructions": [
+        "Cook pasta in salted boiling water until al dente. Reserve 1/2 cup pasta water, then drain.",
+        "Melt butter or heat olive oil in a pan and gently sauté minced garlic for 30–60 seconds.",
+        "Add cream and simmer gently for 2–3 minutes.",
+        "Stir in parmesan until melted. Add a splash of pasta water if the sauce is too thick.",
+        "Toss in the cooked pasta and coat evenly.",
+        "Season with black pepper and serve immediately."
+      ]
+    },
+    "chicken_tacos": {
+      "name": "Chicken Tacos",
+      "calorie": "380",
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "300 gm",
+        "6 pieces",
+        "100 gm",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Chicken",
+        "Tortillas",
+        "Tomato Salsa",
+        "Avocado"
+      ],
+      "isFavorite": false,
+      "rating": 4.8,
+      "review": 23,
+      "time": 30,
+      "instructions": [
+        "Slice chicken into thin strips and season with cumin, paprika, garlic, salt and pepper.",
+        "Heat a skillet with a little oil and cook chicken over medium-high heat until browned and cooked through.",
+        "Warm the tortillas in a dry pan for 20–30 seconds per side.",
+        "Fill each tortilla with chicken, tomato salsa and sliced avocado.",
+        "Add lime juice or fresh coriander if desired.",
+        "Serve immediately while warm."
+      ]
+    },
+    "grilled_chicken_wrap": {
+      "name": "Grilled Chicken Wrap",
+      "calorie": "350",
+      "category": "Lunch",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "250 gm",
+        "2 pieces",
+        "80 gm",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Chicken",
+        "Tortilla Wraps",
+        "Lettuce",
+        "Tomato"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 14,
+      "time": 25,
+      "instructions": [
+        "Season chicken with salt, pepper, paprika and a little oil.",
+        "Grill or pan-cook the chicken for 5–7 minutes per side, depending on thickness, until fully cooked.",
+        "Rest the chicken for 3 minutes, then slice thinly.",
+        "Warm the tortillas and layer with lettuce, tomato and chicken.",
+        "Add yogurt or a light garlic sauce if desired.",
+        "Roll tightly, slice in half and serve."
+      ]
+    },
+    "caesar_salad": {
+      "name": "Chicken Caesar Salad",
+      "calorie": "330",
+      "category": "Lunch",
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "150 gm",
+        "150 gm",
+        "30 gm",
+        "2 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1548365328-8b849e6f90f4?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Chicken",
+        "Romaine Lettuce",
+        "Parmesan",
+        "Caesar Dressing"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 17,
+      "time": 20,
+      "instructions": [
+        "Season chicken with salt and pepper, then grill until cooked through.",
+        "Rest the chicken for a few minutes and slice.",
+        "Wash and dry the lettuce thoroughly, then chop into bite-size pieces.",
+        "Toss lettuce with Caesar dressing until lightly coated.",
+        "Add sliced chicken and parmesan, then toss gently.",
+        "Serve immediately with croutons if available."
+      ]
+    },
+    "tomato_soup": {
+      "name": "Creamy Tomato Soup",
+      "calorie": "210",
+      "category": "Lunch",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "500 gm",
+        "1 piece",
+        "2 cloves",
+        "100 ml"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1615477550927-6ec8445e39b3?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Tomatoes",
+        "Onion",
+        "Garlic",
+        "Cream"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 13,
+      "time": 30,
+      "instructions": [
+        "Roughly chop tomatoes and onion.",
+        "Sauté onion in a little oil until translucent, then add garlic for 30 seconds.",
+        "Add tomatoes, salt and enough water to cover. Simmer for 15–20 minutes until soft.",
+        "Blend until smooth, taking care with the hot liquid.",
+        "Return to the pan, stir in cream and simmer for 2 minutes.",
+        "Adjust seasoning and serve hot with toasted bread."
+      ]
+    },
+    "roasted_vegetables": {
+      "name": "Roasted Mediterranean Vegetables",
+      "calorie": "250",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "150 gm",
+        "100 gm",
+        "100 gm",
+        "1 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Zucchini",
+        "Broccoli",
+        "Tomato",
+        "Olive Oil"
+      ],
+      "isFavorite": false,
+      "rating": 4.7,
+      "review": 15,
+      "time": 30,
+      "instructions": [
+        "Preheat oven to 220°C (425°F).",
+        "Cut zucchini, broccoli and tomatoes into even pieces.",
+        "Toss vegetables with olive oil, salt, pepper and dried herbs.",
+        "Spread in a single layer on a baking tray so they roast instead of steam.",
+        "Roast for 20–25 minutes, turning once halfway through.",
+        "Serve hot as a side dish or light meal."
+      ]
+    },
+    "spinach_chickpea_salad": {
+      "name": "Spinach Chickpea Salad",
+      "calorie": "270",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "100 gm",
+        "150 gm",
+        "1 piece",
+        "1 tbsp"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Spinach",
+        "Chickpeas",
+        "Cucumber",
+        "Lemon Juice"
+      ],
+      "isFavorite": false,
+      "rating": 4.5,
+      "review": 10,
+      "time": 10,
+      "instructions": [
+        "Wash and dry the spinach thoroughly.",
+        "Drain and rinse the chickpeas.",
+        "Chop cucumber into bite-size pieces.",
+        "Combine spinach, chickpeas and cucumber in a large bowl.",
+        "Whisk lemon juice with olive oil, salt and pepper, then drizzle over the salad.",
+        "Toss gently and serve immediately."
+      ]
+    },
+    "stuffed_bell_peppers": {
+      "name": "Stuffed Bell Peppers",
+      "calorie": "320",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=800&q=80",
+      "ingredientAmount": [
+        "3 pieces",
+        "150 gm",
+        "80 gm",
+        "50 gm"
+      ],
+      "ingredientImage": [
+        "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80"
+      ],
+      "ingredientName": [
+        "Bell Peppers",
+        "Cooked Rice",
+        "Tomato",
+        "Onion"
+      ],
+      "isFavorite": false,
+      "rating": 4.6,
+      "review": 12,
+      "time": 40,
+      "instructions": [
+        "Preheat oven to 190°C (375°F). Cut the tops off the bell peppers and remove the seeds.",
+        "Sauté chopped onion and tomato until soft.",
+        "Mix the vegetables with cooked rice, salt, pepper and your preferred herbs.",
+        "Fill each pepper loosely with the rice mixture and place upright in a baking dish.",
+        "Add a small splash of water to the dish, cover with foil and bake for 25 minutes.",
+        "Remove foil and bake for another 10–15 minutes until the peppers are tender."
+      ]
+    }
+  }
+}

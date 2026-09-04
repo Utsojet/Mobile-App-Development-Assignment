@@ -1,0 +1,163 @@
+{
+  "categories": [
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "description": "Chicken recipes from different cuisines.",
+      "recipes": [
+        {
+          "id": "53085",
+          "name": "15-minute chicken & halloumi burgers",
+          "area": "United States",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/vdwloy1713225718.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53050",
+          "name": "Ayam Percik",
+          "area": "Malaysia",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53453",
+          "name": "Bengali Chicken Curry with Potatoes",
+          "area": "Bangladesh",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/9ya6o71780262651.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52940",
+          "name": "Brown Stew Chicken",
+          "area": "Jamaica",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52796",
+          "name": "Chicken Alfredo Primavera",
+          "area": "Italy",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52956",
+          "name": "Chicken Congee",
+          "area": "China",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52765",
+          "name": "Chicken Enchilada Casserole",
+          "area": "Mexico",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53367",
+          "name": "Chicken Fried Rice",
+          "area": "China",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/wuyd2h1765655837.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52795",
+          "name": "Chicken Handi",
+          "area": "India",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52814",
+          "name": "Thai Green Curry",
+          "area": "Thailand",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+          "source": "TheMealDB"
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": "Seafood",
+      "description": "Seafood recipes including fish, prawns and shellfish.",
+      "recipes": [
+        {
+          "id": "52959",
+          "name": "Baked salmon with fennel & tomatoes",
+          "area": "United Kingdom",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52819",
+          "name": "Cajun spiced fish tacos",
+          "area": "Mexico",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52944",
+          "name": "Escovitch Fish",
+          "area": "Jamaica",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/1520084413.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53043",
+          "name": "Fish fofos",
+          "area": "Portugal",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52802",
+          "name": "Fish pie",
+          "area": "United Kingdom",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52764",
+          "name": "Garides Saganaki",
+          "area": "Greece",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52773",
+          "name": "Honey Teriyaki Salmon",
+          "area": "Japan",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53048",
+          "name": "Mee goreng mamak",
+          "area": "Malaysia",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "52821",
+          "name": "Laksa King Prawn Noodles",
+          "area": "Malaysia",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg",
+          "source": "TheMealDB"
+        },
+        {
+          "id": "53065",
+          "name": "Sushi",
+          "area": "Japan",
+          "imageUrl": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
+          "source": "TheMealDB"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "imageProvider": "TheMealDB",
+    "imageUrlNote": "Recipe image URLs are taken from TheMealDB meal records.",
+    "apiDocs": "https://www.themealdb.com/api.php"
+  }
+}
