@@ -13,10 +13,17 @@ class Category {
 
   factory Category.fromFirestore(DocumentSnapshot doc) {
     final data = doc.data() as Map<String, dynamic>? ?? {};
+    final rawImage = (data['image'] as String?)?.trim() ??
+        (data['imageUrl'] as String?)?.trim() ??
+        (data['image_url'] as String?)?.trim() ??
+        (data['photoUrl'] as String?)?.trim() ??
+        '';
     return Category(
       id: doc.id,
       name: data['name'] as String? ?? '',
-      image: data['image'] as String? ?? '',
+      image: rawImage.startsWith('http://')
+          ? rawImage.replaceFirst('http://', 'https://')
+          : rawImage,
     );
   }
 

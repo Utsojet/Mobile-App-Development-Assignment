@@ -24,31 +24,91 @@ class _MainShellState extends State<MainShell> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _screens,
-      ),
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: _currentIndex,
-        onDestinationSelected: (index) =>
-            setState(() => _currentIndex = index),
-        backgroundColor: AppColors.card,
-        indicatorColor: AppColors.primaryLight,
-        labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
-        destinations: const [
-          NavigationDestination(
-            icon: Icon(Iconsax.home),
-            selectedIcon: Icon(Iconsax.home_2, color: AppColors.primary),
-            label: 'Home',
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final isWide = constraints.maxWidth >= 720;
+
+        if (isWide) {
+          return Scaffold(
+            body: Row(
+              children: [
+                NavigationRail(
+                  selectedIndex: _currentIndex,
+                  onDestinationSelected: (index) =>
+                      setState(() => _currentIndex = index),
+                  backgroundColor: Theme.of(context).cardColor,
+                  indicatorColor: isDark ? const Color(0xFF3B2016) : AppColors.primaryLight,
+                  labelType: NavigationRailLabelType.all,
+                  leading: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 20),
+                    child: Container(
+                      width: 44,
+                      height: 44,
+                      decoration: BoxDecoration(
+                        color: isDark ? const Color(0xFF3B2016) : AppColors.primaryLight,
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Iconsax.lamp_charge,
+                        color: AppColors.primary,
+                        size: 24,
+                      ),
+                    ),
+                  ),
+                  destinations: const [
+                    NavigationRailDestination(
+                      icon: Icon(Iconsax.home),
+                      selectedIcon: Icon(Iconsax.home_2, color: AppColors.primary),
+                      label: Text('Home'),
+                    ),
+                    NavigationRailDestination(
+                      icon: Icon(Iconsax.heart),
+                      selectedIcon: Icon(Iconsax.heart_add, color: AppColors.primary),
+                      label: Text('Favorites'),
+                    ),
+                  ],
+                ),
+                const VerticalDivider(width: 1, thickness: 1),
+                Expanded(
+                  child: IndexedStack(
+                    index: _currentIndex,
+                    children: _screens,
+                  ),
+                ),
+              ],
+            ),
+          );
+        }
+
+        return Scaffold(
+          body: IndexedStack(
+            index: _currentIndex,
+            children: _screens,
           ),
-          NavigationDestination(
-            icon: Icon(Iconsax.heart),
-            selectedIcon: Icon(Iconsax.heart_add, color: AppColors.primary),
-            label: 'Favorites',
+          bottomNavigationBar: NavigationBar(
+            selectedIndex: _currentIndex,
+            onDestinationSelected: (index) =>
+                setState(() => _currentIndex = index),
+            backgroundColor: Theme.of(context).cardColor,
+            indicatorColor: isDark ? const Color(0xFF3B2016) : AppColors.primaryLight,
+            labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+            destinations: const [
+              NavigationDestination(
+                icon: Icon(Iconsax.home),
+                selectedIcon: Icon(Iconsax.home_2, color: AppColors.primary),
+                label: 'Home',
+              ),
+              NavigationDestination(
+                icon: Icon(Iconsax.heart),
+                selectedIcon: Icon(Iconsax.heart_add, color: AppColors.primary),
+                label: 'Favorites',
+              ),
+            ],
           ),
-        ],
-      ),
+        );
+      },
     );
   }
 }
