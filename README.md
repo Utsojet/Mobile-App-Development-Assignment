@@ -194,8 +194,3 @@ flutter build apk --release
 flutter build web --no-tree-shake-icons
 ```
 *The output bundle will be located at `build/web`.*
-
----
-
-## 📄 License
-This project is licensed under the MIT License.
